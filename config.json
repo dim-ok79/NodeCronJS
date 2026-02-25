@@ -1,0 +1,14 @@
+[
+  {"minutes": "35", "hours": "7", "day": "*", "month": "*", "day_week": "*",
+    "cmdList":  [{"cmd": "pm2 stop ProxyServerTS", "dir":""},
+                 {"cmd": "D:\\WEB\\122\\LK-6\\ProxyServerTS\\arh_log.bat", "dir":""},
+                 {"cmd": "pm2 start ProxyServerTS", "dir":""}
+    ]
+  },
+  {"minutes": "29", "hours": "14", "day": "*", "month": "*", "day_week": "*",
+    "cmdList":  [{"cmd": "pm2 delete ProxyServerTS", "dir":""},
+      {"cmd": "arh_log.bat", "dir":"D:\\WEB\\TEST_ProxyDist"},
+      {"cmd": "pm2 start D:\\WEB\\TEST_ProxyDist\\ecosystem.config.js", "dir":"D:\\WEB\\TEST_ProxyDist"}
+    ]
+  }
+]

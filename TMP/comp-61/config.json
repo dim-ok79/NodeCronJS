@@ -1,0 +1,15 @@
+[
+  {"minutes": "30", "hours": "7", "day": "*", "month": "*", "day_week": "*",
+    "cmdList":  [{"cmd": "pm2 delete Server-MONITOR-BackEnd", "dir":""},
+                 {"cmd": "C:\\MONITOR\\BACKEND\\arh_log.bat", "dir":""},
+                 {"cmd": "C:\\MONITOR\\BACKEND\\start.bat", "dir":""}
+    ]
+  },
+  {"minutes": "40", "hours": "7", "day": "*", "month": "*", "day_week": "*",
+    "cmdList":  [{"cmd": "pm2 delete Server-BackEnd-FRAME", "dir":""},
+                 {"cmd": "C:\\LK-FRAME\\Backend\\arh_log.bat", "dir":""},
+                 {"cmd": "C:\\LK-FRAME\\Backend\\start.bat", "dir":""}
+    ]
+  }
+]
+
