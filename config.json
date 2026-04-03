@@ -1,8 +1,10 @@
 [
-  {"minutes": "35", "hours": "7", "day": "*", "month": "*", "day_week": "*",
-    "cmdList":  [{"cmd": "pm2 stop ProxyServerTS", "dir":""},
-                 {"cmd": "D:\\WEB\\122\\LK-6\\ProxyServerTS\\arh_log.bat", "dir":""},
-                 {"cmd": "pm2 start ProxyServerTS", "dir":""}
+  {"minutes": "13", "hours": "0", "day": "*", "month": "*", "day_week": "*",
+    "cmdList":  [],
+    "urlList": [
+      {"url":  "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo", "typeUrl":  "GET"},
+      {"url":  "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo1", "typeUrl":  "POST"},
+      {"url":  "http://192.168.1.70:3011", "typeUrl":  "POST"}
     ]
   },
   {"minutes": "25", "hours": "22", "day": "*", "month": "*", "day_week": "*",
