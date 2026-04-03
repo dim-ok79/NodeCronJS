@@ -5,10 +5,10 @@
                  {"cmd": "pm2 start ProxyServerTS", "dir":""}
     ]
   },
-  {"minutes": "29", "hours": "14", "day": "*", "month": "*", "day_week": "*",
-    "cmdList":  [{"cmd": "pm2 delete ProxyServerTS", "dir":""},
-      {"cmd": "arh_log.bat", "dir":"D:\\WEB\\TEST_ProxyDist"},
-      {"cmd": "pm2 start D:\\WEB\\TEST_ProxyDist\\ecosystem.config.js", "dir":"D:\\WEB\\TEST_ProxyDist"}
+  {"minutes": "25", "hours": "22", "day": "*", "month": "*", "day_week": "*",
+    "cmdList":  [{"cmd": "pm2 delete Server-LK-Front-TS", "dir":""},
+      {"cmd": "arh_log.bat", "dir":"D:\\WEB\\MyProject\\FrontServerTS"},
+      {"cmd": "pm2 start D:\\WEB\\MyProject\\FrontServerTS\\ecosystem.config.js", "dir":"D:\\WEB\\MyProject\\FrontServerTS"}
     ]
   }
 ]

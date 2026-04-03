@@ -5,8 +5,8 @@ function cmdExe(cmdText, dir) {
     if (dir && dir.length>3){
         params.cwd = dir;
     }
-    params.stdio = ['ignore','ignore','ignore'];
-    console.log('params=', params);
+//    params.stdio = ['ignore','ignore','ignore'];
+//    console.log('params=', params);
 //    output = execSync(cmdText, {cwd: dir, encoding: 'utf-8' });
     output = execSync(cmdText, params);
     return output;
